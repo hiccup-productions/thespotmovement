@@ -10824,3 +10824,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+.footer-content a.instagram-icon {
+    color: #fff;           /* default white */
+    display: inline-flex;  
+    align-items: center;   
+    margin: 0 8px;         
+    transition: color 0.3s; 
+}
+
+.footer-content a.instagram-icon:hover {
+    color: #e1306c; /* Instagram pink on hover */
+}
+
+.footer-content a.instagram-icon svg {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;  /* line color follows link color */
+    fill: none;            /* transparent inside */
+}
